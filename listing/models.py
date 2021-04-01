@@ -37,6 +37,7 @@ class Listing(models.Model):
         max_length = 500, unique = True,
         help_text = 'Add the title of this listing.'
     )
+    
     listing_content = models.TextField(null = True)
 
     listing_location = models.CharField(
