@@ -8,4 +8,4 @@ class ListingAdmin(admin.ModelAdmin):
         'listing_status',
     )
 
-admin.site.register(Listing)
+admin.site.register(Listing, ListingAdmin)
