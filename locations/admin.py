@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Location
 
-# Register your models here.
+class LocationAdmin(admin.ModelAdmin):
+    list_display = ('location_title', 'title', 'sub_title')
 
-admin.site.register(Location)
+admin.site.register(Location, LocationAdmin)
