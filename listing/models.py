@@ -18,8 +18,8 @@ class Listing(models.Model):
     listing_location = models.CharField(
         max_length = 50,
         choices = LOCATION, 
-        default = "", null = 
-        False
+        default = "Nairobi", 
+        null = False
     )
 
     def __str__(self):
