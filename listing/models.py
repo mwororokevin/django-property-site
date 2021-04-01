@@ -33,7 +33,10 @@ FURNISHED_STATUS = (
 )
 
 class Listing(models.Model):
-    listing_title   = models.CharField(max_length = 200, unique = True)
+    listing_title   = models.CharField(
+        max_length = 500, unique = True,
+        help_text = 'Add the title of this listing.'
+    )
     listing_content = models.TextField(null = True)
 
     listing_location = models.CharField(
@@ -59,11 +62,15 @@ class Listing(models.Model):
 
     number_of_bedrooms = models.IntegerField(
         blank = False,
+        null = False,
+        default = 0,
         help_text = 'Enter the total number of Bedrooms in this listing.'
     )
 
     number_of_bathrooms = models.IntegerField(
         blank = False,
+        null = False,
+        default = 0,
         help_text = 'Enter the total number of bathrooms in this listing.'
     )
 
@@ -124,29 +131,34 @@ class Listing(models.Model):
     water_information = models.CharField(
         max_length = 100,
         blank = False,
+        default = 'Available',
         help_text = 'Enter information about the water supply.'
     )
 
     power_information = models.CharField(
         max_length = 100,
         blank = False,
+        default = 'Available',
         help_text = 'Enter information about the power/energy supply.'
     )
 
     security_information = models.CharField(
         max_length = 100,
         blank = False,
+        default = 'Adequate',
         help_text = 'Enter information about the security situation.'
     )
 
     parking_information = models.CharField(
         max_length = 100,
         blank = False,
+        default = 'Ample Parking',
         help_text = 'Enter information about the parking situation.'
     )
 
     kitchen_appliances = models.CharField(
         max_length = 50,
+        blank = True,
         help_text = 'Select the appliances that are available in the current listing.'
     )
 
