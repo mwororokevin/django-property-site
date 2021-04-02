@@ -1,5 +1,6 @@
 from django.db import models
-# from ..locations import Locations
+# from tzagents.locations.models import Location
+# from tzagents.locations.models import Location
 
 # Create your models here.
 
@@ -133,28 +134,28 @@ class Listing(models.Model):
     water_information = models.CharField(
         max_length = 100,
         blank = False,
-        default = 'Available',
+        default = '',
         help_text = 'Enter information about the water supply.'
     )
 
     power_information = models.CharField(
         max_length = 100,
         blank = False,
-        default = 'Available',
+        default = '',
         help_text = 'Enter information about the power/energy supply.'
     )
 
     security_information = models.CharField(
         max_length = 100,
         blank = False,
-        default = 'Adequate',
+        default = '',
         help_text = 'Enter information about the security situation.'
     )
 
     parking_information = models.CharField(
         max_length = 100,
         blank = False,
-        default = 'Ample Parking',
+        default = '',
         help_text = 'Enter information about the parking situation.'
     )
 
