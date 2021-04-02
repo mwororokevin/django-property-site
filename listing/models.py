@@ -21,6 +21,7 @@ LISTING_STATUS = (
 
 LISTING_TYPE = (
     ('Apartments', 'Apartments'),
+    ('Houses', 'Houses'),
     ('Commercial', 'Commercial'),
     ('Hotels & Lodges', 'Hotels & Lodges'),
     ('Land/Plots', 'Land/Plots'),
