@@ -1,6 +1,6 @@
 from django.db import models
-# from tzagents.locations.models import Location
-# from tzagents.locations.models import Location
+
+from tzagents.locations.models import Location
 
 # Create your models here.
 
