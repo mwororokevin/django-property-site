@@ -7,7 +7,14 @@ I am learning Django and I thought it would help if I built something I already 
 
 
 ### The Original WordPress Interface
-![Alt text](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/full_page.png?raw=true "The Original WordPress Interface")
+![The Original Full Page Interface](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/full_page.png?raw=true)
+![The Caretaker Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/caretaker_section.png?raw=true)
+![The Detail Listing Interface](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/detail_listing_information.png?raw=true)
+![The Owner Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/owner_section.png?raw=true)
+![The Title & Content Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/title_content.png?raw=true)
+![The Featured Image Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/featured_image_section.png?raw=true)
+![Non Essential Information Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/non_essential_information_section.png?raw=true)
+![Media Attachment Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/full_page.png?raw=true)
 
 
 ### Built With
