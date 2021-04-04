@@ -7,7 +7,7 @@ I am learning Django and I thought it would help if I built something I already 
 
 
 ### The Original WordPress Interface
-[![Alt text][fullpage-screenshot]](/readme_images/full_page.png?raw=true "The Original WordPress Interface")
+![Alt text](/readme_images/full_page.png?raw=true "The Original WordPress Interface")
 
 
 ### Built With
