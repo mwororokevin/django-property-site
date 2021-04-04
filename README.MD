@@ -5,7 +5,9 @@
 
 I am learning Django and I thought it would help if I built something I already built before using different techstacks. I chose the backend of [tzagents.com](https.//tzagents.com). I built the site using [WordPress](https://wordpress.org) with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin responsible for most of the backend you see.
 
-[![Full Page Orignal Screenshot][fullpage-screenshot]](/readme_images/full_page.png?raw=true "The Original WordPress Interface")
+
+### The Original WordPress Interface
+[![Alt text][fullpage-screenshot]](/readme_images/full_page.png?raw=true "The Original WordPress Interface")
 
 
 ### Built With
