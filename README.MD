@@ -1,13 +1,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 I am learning Django and I thought it would help if I built something I already built before using different techstacks. I chose the backend of [tzagents.com](https.//tzagents.com). I built the site using [WordPress](https://wordpress.org) with the [Advanced Custom Fields](https://www.advancedcustomfields.com) plugin responsible for most of the backend you see.
 
 
 ### The Original WordPress Interface
-* ![The Original Full Page Interface](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/full_page.png)
+* ![The Original Full Page Interface](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/full_page.png?raw=true)
 * ![The Caretaker Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/caretaker_section.png?raw=true)
 * ![The Detail Listing Interface](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/detail_listing_information.png?raw=true)
 * ![The Owner Section](https://github.com/mwororokevin/django-property-site/tree/master/readme_images/owner_section.png?raw=true)
