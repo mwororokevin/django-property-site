@@ -42,11 +42,11 @@ I am learning Django and I thought it would help if I built something I already 
 <!-- PROJECT REQUIREMENTS -->
 ## Requirements
 
-asgiref == 3.3.1
-Django == 3.1.7
-Pillow == 8.1.2
-pytz == 2021.1
-sqlparse == 0.4.1
+* asgiref == 3.3.1
+* Django == 3.1.7
+* Pillow == 8.1.2
+* pytz == 2021.1
+* sqlparse == 0.4.1
 
 
 
