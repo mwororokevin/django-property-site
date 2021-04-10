@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'listing.apps.ListingConfig',
     'locations.apps.LocationsConfig',
     'employees.apps.EmployeesConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
